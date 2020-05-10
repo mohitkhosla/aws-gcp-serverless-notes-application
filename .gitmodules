@@ -1,3 +1,6 @@
 [submodule "DynamoDB-to-CSV"]
 	path = DynamoDB-to-CSV
 	url = https://github.com/mohitkhosla/DynamoDB-to-CSV
+[submodule "sls-notes-backend-prod"]
+	path = sls-notes-backend-prod
+	url = https://github.com/mohitkhosla/sls-notes-backend-prod

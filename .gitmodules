@@ -1,0 +1,3 @@
+[submodule "DynamoDB-to-CSV"]
+	path = DynamoDB-to-CSV
+	url = https://github.com/mohitkhosla/DynamoDB-to-CSV

@@ -1,0 +1,32 @@
+<header>
+    <div class="container navbar">
+        <h1 class="navbar-brand text-primary">Serverless Notes App</h1>
+
+        <ul class="nav">
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary" (click)="onShowNoteModal($event)">
+                    <i class="fas fa-edit"></i>
+                    <span class="button-text">Add Note</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary" (click)="showNotes($event)">
+                    <i class="fas fa-sticky-note"></i>
+                    <span class="button-text">Notes</span>
+                </button>
+            </li>
+            <li class="nav-item" *ngIf="isShowAnalytics">
+                <button type="button" class="btn btn-danger" (click)="loadAnalytics($event)">
+                    <i class="fas fa-chart-line"></i>
+                    <span class="button-text">Analytics</span>
+                </button>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-light" (click)="onSignOut()">
+                    <i class="fab fa-google"></i>
+                    <span class="button-text">Sign out</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+</header>

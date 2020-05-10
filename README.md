@@ -1,1 +1,1 @@
-"# aws-gcp-serverless-notes-application" 
+"A Serverless Notes Application built using AWS and GCP Services"
